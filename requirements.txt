@@ -1,0 +1,6 @@
+python3 -m venv venv
+source venv/bin/activate
+pip install -U pip
+# install libraries you need, e.g.:
+pip install numpy pandas tensorflow matplotlib scikit-learn jupyter
+pip freeze > requirements.txt
